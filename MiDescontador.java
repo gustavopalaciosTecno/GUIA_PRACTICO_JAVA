@@ -5,7 +5,7 @@ public class MiDescontador {
     public static void main(String args[]){
         int numero = 1;
         for (int i=0 ;i<21;++i){
-            numero--;
+            --numero;
             System.out.println(numero);
     }
 }
