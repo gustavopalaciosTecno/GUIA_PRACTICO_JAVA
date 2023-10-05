@@ -10,7 +10,7 @@ public class CalculoDeDivisibilidad {
         int numero2 = 5;
         var resultado = numero1 + numero2;
         System.out.println("El valor del cálculo es " +resultado);
-        String valores = (numero1 % numero2 == 0)? "es divisible":"no es divisible";
+        String valores = (numero1 % numero2 == 0)? "divisible":"no es divisible";
         System.out.print("la suma es "  + valores + " entre: " + numero1 + " y " + numero2);
      
     
